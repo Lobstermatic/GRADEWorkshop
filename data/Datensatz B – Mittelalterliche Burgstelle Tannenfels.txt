@@ -1,0 +1,6 @@
+Posten;Funde;Material;Datum;Grabung;Tiefe
+12;"Keramikscherbe, randfragment, glasur rotbraun";Irdenware;07.07.22;Tannenfels;
+13;"Eiserner Beschlag, stark korrodiert";Metall;07.07.22;Tannenfels;0,4
+14;"Tierknochen, Fragment";Bein;07.07.22;Tannenfels;0,4
+15;"Münze? - zu stark korrodiert für Bestimmung";Metall;08.07.22;Tannenfels;0,5
+16;"Ofenkachel, fragmentarisch";Keramik;08.07.22;Tannenfels;0,6

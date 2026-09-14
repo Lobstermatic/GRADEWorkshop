@@ -1,0 +1,76 @@
+# Angaben zu Autor:innen und ihren institutionellen Zugehörigkeiten.
+# Die eingetragenen Personen- und Kontaktdaten sind Beispielwerte und müssen vor der Veröffentlichung geprüft bzw. ersetzt werden.
+#
+# Erforderlich = für jede Person ausfüllen
+# Optional     = bei Bedarf ergänzen bzw. Kommentarzeichen # entfernen
+#
+# Quarto: https://quarto.org/docs/authoring/front-matter.html#author
+
+# Autor:innen
+
+author:
+  - name:
+      given: "Henrike" # Erforderlich: Vorname
+      family: "Backhaus" # Erforderlich: Nachname
+
+    orcid: "0000-0000-0000-0001" # Optional, empfohlen: ORCID ohne URL
+    email: "henrike.backhaus@hs-mainz.de" # Optional: E-Mail-Adresse
+    url: "https://hs-mainz.de" # Optional: persönliche oder berufliche Website
+
+    affiliations: # Optional: institutionelle Zugehörigkeit über die unten definierte id (hier institution-1)
+      - ref: institution-1
+
+    roles: # Erforderlich: Beiträge der Person nach CRediT; mehrere Rollen möglich. Autor:innen ohne Rolle werden nicht in die Metadaten übernommen.
+      - writing
+    # CRediT: https://credit.niso.org/
+
+    functions: # Optional: zusätzliche Funktion der Person im Zusammenhang mit der Ressource; kontrolliertes Vokabular nach DALIA/MoDALIA, mehrere Funktionen möglich.
+      - speaker
+    # DALIA/MoDALIA Contributor Roles:
+    # https://dalia.pages.rwth-aachen.de/dalia-ontology/index-en.html#http://id.loc.gov/ontologies/bibframe/Role
+
+  - name:
+      given: "John" # Erforderlich: Vorname
+      family: "Doe" # Erforderlich: Nachname
+
+    orcid: "0000-0000-0000-0002" # Optional, empfohlen: ORCID ohne URL
+    email: "john.doe@example.org" # Optional: E-Mail-Adresse
+    url: "https://example.com" # Optional: persönliche oder berufliche Website
+
+    affiliations:
+      - ref: institution-2
+    roles: # Erforderlich: Beiträge der Person nach CRediT; mehrere Rollen möglich. Autor:innen ohne Rolle werden nicht in die Metadaten übernommen.
+      - conceptualization
+    # CRediT: https://credit.niso.org/
+    # functions: # Optional: zusätzliche Funktion der Person im Zusammenhang mit der Ressource; kontrolliertes Vokabular nach DALIA/MoDALIA, mehrere Funktionen möglich.
+    #   - speaker
+    # DALIA/MoDALIA Contributor Roles:
+    # https://dalia.pages.rwth-aachen.de/dalia-ontology/index-en.html#http://id.loc.gov/ontologies/bibframe/Role
+
+
+# Institutionen
+
+# Optional: nur erforderlich, wenn mindestens eine Person über affiliations darauf verweist. Die lokale id dient ausschließlich zur Referenz innerhalb dieser YAML-Datei.
+
+affiliations:
+  - id: institution-1
+    name: "Hochschule Mainz" # Erforderlich, sobald die Institution verwendet wird
+    department: "" # Optional: Organisationseinheit
+    city: "Mainz" # Optional: Ort
+    country: "Germany" # Optional: Land
+    url: "https://hs-mainz.de" # Optional: Website der Institution
+    ror: "https://ror.org/02re32a17" # Optional, empfohlen: vollständige ROR-URI
+
+    # group: "Arbeitsgruppe" # Optional: Arbeits- oder Forschungsgruppe
+
+  - id: institution-2
+    name: "Dreamworld University" # Erforderlich, sobald die Institution verwendet wird
+    department: "Fun and Entertainment with Quarto and Metadata" # Optional: Organisationseinheit
+    city: "City" # Optional: Ort
+    country: "Country" # Optional: Land
+    url: "https://example.com" # Optional: Website der Institution
+    ror: "https://ror.org/00aa00a11" # Optional, empfohlen: vollständige ROR-URI
+
+    # group: "Arbeitsgruppe" # Optional: Arbeits- oder Forschungsgruppe
+
+# ROR-Suche: https://ror.org/search

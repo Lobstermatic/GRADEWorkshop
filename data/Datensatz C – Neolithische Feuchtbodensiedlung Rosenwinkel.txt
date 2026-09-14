@@ -1,0 +1,7 @@
+Objekt-Nr;Kontext;Material;Befund;Maße (mm);Gewicht (g);Datierung;Foto-Bezug;Bearbeiter;Notizen
+R-2021-0987;Pfostenbau Haus 2;Holz (Eiche);Befund 14;412 × 78 × 64;;Jungneolithikum (ca. 3900–3500 v. Chr.);IMG_4521.jpg;M. Brückner;Pfostenfuß mit Bearbeitungsspuren, dendro geplant
+R-2021-0988;Pfostenbau Haus 2;Holz (Eiche);Befund 14;398 × 75 × 61;;Jungneolithikum (ca. 3900–3500 v. Chr.);IMG_4522.jpg;M. Brückner;Pfostenfuß, dendro geplant
+R-2021-0989;Pfostenbau Haus 2;Holz (Erle);Befund 15;287 × 54 × 49;;Jungneolithikum (ca. 3900–3500 v. Chr.);IMG_4523.jpg;M. Brückner;Waagrechte Bohle, Spuren von Werkzeug
+R-2021-0990;Haus 2 Innen;Keramik;Befund 16;98 × 87 × 41;72;Jungneolithikum (ca. 3900–3500 v. Chr.);IMG_4524.jpg;M. Brückner;Gefäßfragment, Bandkeramik, Wellenmuster
+R-2021-0991;Haus 2 Innen;Keramik;Befund 16;112 × 95 × 38;81;Jungneolithikum (ca. 3900–3500 v. Chr.);IMG_4525.jpg;M. Brückner;Gefäßfragment, Bandkeramik, Ritzverzierung
+R-2021-0992;Haus 2 Innen;Getreide (Emmer);Befund 17;;0,4;Jungneolithikum (ca. 3900–3500 v. Chr.);IMG_4526.jpg;S. Lang;verkohlte Körner, Proben für 14C entnommen
