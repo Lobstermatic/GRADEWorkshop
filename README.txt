@@ -1,0 +1,1 @@
+Dieses Repositorium enthält den Entwurf eines Workshops, den die TA6 von NFDI4Objects im Oktober für GRADE an der Goethe Universität Frankfurt halten wird.
