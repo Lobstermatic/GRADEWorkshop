@@ -3,54 +3,129 @@
 ![](img/FDM-auch-das-noch.png){fig-alt="Ängste vor FDM."}
 
 
-## ⏱️ Ablauf {.smaller}
+## ⏱️ Schedule {.smaller}
 
-| Zeit | Phase | Inhalt | Format |
+| Time | Phase | Content | Format |
 |---|---|---|---|
-| 14:00–14:05 | **Einstieg** | Vorstellung, Lernziele, Blitzumfrage: „Wer hat schon einmal Grabungsdaten archiviert?" | Plenum |
-| 14:05-14:15 | **FAIR-Prinzipien** | Welche Bedeutung haben die FAIR-Prinzipien im FDM | Plenum |
-| 14:15–14:30 | **F – Theorie** | **Findable**: PID (DOI), Repositorien, Metadatenstandards (CIDOC CRM, Dublin Core) | Vortrag + Folie |
-| 14:30–14:45 | **F – Übung 1** | Metadaten-Check: 3 Funddatensätze bewerten | Partnerarbeit |
-| 14:45-15:00 | Pause |||
-| 15:00-15:15 | **A – Theorie** | **Accessible**: offene vs. sensible Daten, Lizenzen (CC BY 4.0), Embargo, Zugriffsprotokolle | Vortrag + Folie |
-| 15:15–15:30 | **A – Übung 2** | Lizenz-Wahl für 5 Datenszenarien | Einzelarbeit + Diskussion |
-| 15:30-15:45 | **I – Theorie** | **Interoperable**: offene Formate (CSV, GeoJSON, IFC, E57), Vokabulare | Vortrag + Folie |
-| 15:45-16:00 | **R – Theorie** | **Reusable**: Dokumentation, Provenienz, Data Management Plan | Vortrag + Folie |
-| 16:00–16:15 | **I+R – Übung 3** | Mini-DMP für eine 4-Wochen-Surveykampagne erstellen | Kleingruppen (3 Pers.) |
-| 16:15-16:45 | **Abschluss** | Reflexionsrunde, Ressourcenliste | Plenum |
+| 14:00–14:05 | **Introduction** | Welcome, learning objectives, quick poll: "Who has ever archived excavation data?" | Plenary |
+| 14:05–14:15 | **FAIR Principles** | What significance do the FAIR principles have in RDM | Plenary |
+| 14:15–14:30 | **F – Theory** | **Findable**: PID (DOI), repositories, metadata standards (CIDOC CRM, Dublin Core) | Lecture + slide |
+| 14:30–14:45 | **F – Exercise 1** | Metadata check: evaluate 3 find-record datasets | Pair work |
+| 14:45–15:00 | *Break* |||
+| 15:00–15:15 | **A – Theory** | **Accessible**: open vs. sensitive data, licenses (CC BY 4.0), embargo, access protocols | Lecture + slide |
+| 15:15–15:30 | **A – Exercise 2** | License selection for 5 data scenarios | Individual work + discussion |
+| 15:30–15:45 | **I – Theory** | **Interoperable**: open formats (CSV, GeoJSON, IFC, E57), vocabularies | Lecture + slide |
+| 15:45–16:00 | **R – Theory** | **Reusable**: documentation, provenance, data management plan | Lecture + slide |
+| 16:00–16:15 | **I+R – Exercise 3** | Create a mini-DMP for a 4-week excavation campaign | Small groups (3 people) |
+| 16:15–16:45 | **Wrap-up** | Reflection round, resource list | Plenary |
 
-: Ablauf {#tbl-beispiel tbl-colwidths="[10,10,60,20]"}
+: Schedule {#tbl-beispiel tbl-colwidths="[10,10,60,20]"}
 
-## 🎯 Lernziele
+## 🎯 Goals
 
-Nach dem Workshop können die Teilnehmenden:
+**After the workshop, participants will be able to:**
 
-- die FAIR-Prinzipien auf archäologische Datentypen (Befunde, Funde, 3D-Modelle, Geodaten) anwenden
-- einen kleinen Datenmanagement-Plan (DMP) für ein Grabungsprojekt skizzieren
-- Persistente Identifikatoren (DOI) und Repositorien unterscheiden
-- typische Fallstricke benennen (inkonsistente Terminologie, proprietäre Formate, fehlende Metadaten)
+- apply the FAIR principles to archaeological data types (finds, artifacts, 3D models, geodata)
+- outline a brief data management plan (DMP) for an archaeological project
+- distinguish between persistent identifiers (DOI) and repositories (e.g., tDAR, Zenodo)
+- identify common pitfalls (inconsistent terminology, proprietary formats, missing metadata)
 
 ## 📚 Theorieteile
 
 ### Was ist euer Verständnis von Forschungsdatenmanagement?
 
-## Der Forschungsdatenlebenszyklus
+## 📚 Theory
+
+## Research Data Life Cycle
+
+A typical research data life cycle comprises the following stages:
+
+1. **Plan / Design** – Define the research question, choose methods, draft a data management plan (DMP), and decide on data formats, metadata standards, and storage requirements.
+2. **Collect / Create** – Generate or acquire data through experiments, surveys, observations, simulations, or reusing existing datasets; document context, instruments, and conditions.
+3. **Process / Analyze** – Clean, transform, validate, and analyze the data using appropriate tools and reproducible workflows; produce derived data and intermediate results.
+4. **Store / Preserve** – Save data in secure, well-structured repositories with backups, version control, and clear file-naming conventions.
+5. **Describe / Document** – Add rich metadata (e.g., Dublin Core, DataCite, domain-specific schemas) and write README files so the data is understandable independent of the project.
+6. **Share / Publish** – Make data findable and accessible via trusted repositories, assign persistent identifiers (DOIs), and choose an appropriate license (e.g., CC-BY).
+7. **Discover / Reuse** – Enable others (and your future self) to find, cite, and reuse the data in new research, closing the cycle.
+8. **Archive / Dispose** – For long-term preservation migrate to standard formats and durable repositories; when legally or ethically required, securely dispose of sensitive data.
+
+🔁 The cycle is iterative: insights from reuse often feed back into new research questions, restarting the planning stage.
+
+:warning: Good scientific practice encompasses four principles that should guide your management of scientific data
 
 ![Der Forschungsdatenlebenszyklus. The Turing Way Community, & Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. CC By 4.0 [Zenodo](http://doi.org/10.5281/zenodo.3695300)](img/ResearchCycle.jpg){fig-alt="TouringWay-Forschungsdatenlebenszyklus"}
 
 
-## Die FAIR-Prinzipien
+## The FAIR-Principles
 
-![Die FAIR-Prinzipien The Turing Way Community, & Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. CC By 4.0 [Zenodo](http://doi.org/10.5281/zenodo.3695300)](img/FAIR-Prinzipien.png){fig-alt="TouringWay-FAIR-Prinzipien"}
+![The FAIR-Principles The Turing Way Community, & Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. CC By 4.0 [Zenodo](http://doi.org/10.5281/zenodo.3695300)](img/FAIR-Prinzipien.png){fig-alt="TouringWay-FAIR-Prinzipien"}
 
-## Die FAIR-Prinzipien
+## The FAIR-Principles
 
-Die FAIR-Prinzipien wurden von der FORCE11-Community geprägt und 2016 das erste Mal beschrieben. In den letzten Jahren sind sie ein **essenzieller Standard im Forschungsdatenmanagement** geworden.
+The FAIR principles were coined by the FORCE11 community and first described in 2016. In recent years, they have become an **essential standard in research data management**.
 
-FAIR steht für **F**indable (auffindbar), **A**ccessible (zugänglich), **I**nteroperable (kompatibel) und **R**eusable (nachnutzbar). Die Prinzipien sollen Orientierung für den **Umgang mit Forschungsdaten** bei der Dokumentation, Veröffentlichung und Archivierung bieten. Ziel ist es, **Forschungsdaten für Menschen und Maschinen optimal aufzubereiten** und zugänglich zu machen, sodass die Wiederverwendbarkeit von Datenbeständen verbessert wird.
+FAIR stands for **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable. The principles are intended to provide guidance on **handling research data** during documentation, publication, and archiving. The goal is to **optimately prepare research data for both humans and machines** and make it accessible, thereby improving the reusability of datasets.
 
-Das Akronym FAIR ist inzwischen fester Bestandteil des Fachjargons von Forschungsdatenmanager:innen und wird auch als Adjektiv, wie in „FAIRe Daten“ oder in Wortschöpfungen wie „FAIRification“ verwendet. Auch in Policys und Vorgaben unterschiedlichster Player wird der Begriff immer häufiger verwendet, z. B. seit 2017 in den Förderrichtlinien der EU.
+The acronym FAIR has now become an integral part of the technical jargon used by research data managers and is also used as an adjective, as in “FAIR data,” or in neologisms such as “FAIRification.” The term is also being used with increasing frequency in the policies and guidelines of a wide variety of stakeholders, for example, in the EU’s funding guidelines since 2017.
 
+## 🔍 F – Findable
+
+- Data and metadata are assigned a globally unique, persistent identifier (e.g., DOI).
+- Data is described with rich, standardized metadata.
+- Metadata clearly and explicitly includes the identifier of the data it describes.
+- Data and metadata are registered or indexed in a searchable resource.
+
+## 🔓 A – Accessible
+
+- Data and metadata are retrievable by their identifier using a standardized communication protocol (e.g., HTTP, FTP).
+- The protocol is open, free, and universally implementable.
+- Authentication and authorization procedures are necessary where applicable.
+- Metadata remains accessible even when the underlying data is no longer available.
+
+## 🔗 I – Interoperable
+
+- Data and metadata use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+- Data and metadata use vocabularies that follow FAIR principles themselves.
+- Data and metadata include qualified references to other (meta)data.
+
+## ♻️ R – Reusable
+
+- Data and metadata are richly described with a plurality of accurate and relevant attributes.
+- Data and metadata are released with a clear and accessible data-usage license.
+- Data and metadata are associated with detailed provenance.
+- Data and metadata meet domain-relevant community standards.
+
+
+## 💡 FAIR is not equal to "Open": data can be FAIR and still access-restricted (e.g., sensitive or personal data). The principles focus on good stewardship, not necessarily unrestricted access.
+
+
+## :question: What does that mean for my own research?
+
+### Individual level
+
+**Organize and document** your own data for personal reuse.
+
+**Record processing steps** to ensure reproducibility.
+
+**Support** your own research.
+
+### Project Level
+
+**Coordinate data collection and management** within the team.
+
+**Establish common standards and file structures.**
+
+**Ensure consistency, transparency, and efficient workflows.**
+
+### Community Level
+
+**Prepare and publish data** so that others can find and reuse it.
+
+**Ensure citability, acknowledgment, and long-term accessibility.**
+
+**Contribute to the collective advancement** of archaeological knowledge.
+
+--------------
 ## F – Findable (auffindbar)
 
 * **Warum ist das wichtig?** 
